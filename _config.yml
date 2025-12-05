@@ -1,0 +1,43 @@
+# GitHub Pages Configuration
+# This file configures your GitHub Pages site
+
+# Site settings
+title: "Betting Platforms Guide 2024"
+description: "Comprehensive guide to the best online betting platforms"
+author: "Betting Guide Team"
+
+# Build settings
+markdown: kramdown
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# GitHub Pages specific settings
+# Leave theme empty for custom HTML/CSS
+theme: null
+
+# Plugins (GitHub Pages automatically includes these)
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO settings
+lang: en_US
+timezone: UTC
+
+# Social profiles (optional)
+# twitter:
+#   username: yourusername
+#   card: summary_large_image
+
+# Google Analytics (optional - add your tracking ID)
+# google_analytics: UA-XXXXXXXXX-X
+
+# Logo and favicon paths (optional)
+# logo: /assets/images/logo.png
+# favicon: /favicon.ico
